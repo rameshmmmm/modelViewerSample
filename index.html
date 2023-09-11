@@ -7,11 +7,11 @@
     <title>modelviewer</title>
 </head>
 <body>
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
   <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y">
+    <!-- Create a large hotspot to cover the model -->
     <hotspot
       position="0 0 0"
-      text="Tooltip text"
+      scale="100 100 100"
       billboard="true"
     >
       <img src="https://img.freepik.com/free-psd/blank-wall-psd-japandi-living-room-interior_53876-109284.jpg?w=2000" alt="2D Image">
