@@ -7,24 +7,30 @@
     <title>modelviewer</title>
 </head>
 <body>
+    <model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz" poster="" style="margin: auto; height: 50vh" ar
+        ar-modes="scene-viewer webxr quick-look" camera-controls touch-action="pan-y">
+        <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; "> 
+            Activate AR
+        </button>
+    </model-viewer>
     <!-- static 2d image background -->
     <!-- <div class="demo" style="background: no-repeat url('./skyboxImage.jpeg'); overflow-x: hidden;">
         <span
             style="position: absolute; text-align: center; font-size: 100px; line-height: 100px; left: 50%; transform: translateX(-50%);">Background<br>is
-            visible<br>through<br>transparent<br>objects.</span> -->
+            visible<br>through<br>transparent<br>objects.</span>
         <model-viewer camera-controls touch-action="pan-y"
             src="https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/ToyCar/glTF-Binary/ToyCar.glb" ar
             alt="A 3D transparency test" style="background: no-repeat url('./skyboxImage.jpeg')"></model-viewer>
-    <!-- </div> -->
+    </div> -->
     <!-- normal panaroma -->
-    <model-viewer
+    <!-- <model-viewer
         alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
         skybox-image="skyboxImage2.jpg" src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" ar
-        shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer> -->
     <!-- panaroma 360 and virtual tours -->
-    <model-viewer
+    <!-- <model-viewer
         alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
         skybox-image="skyboxImage3.jpg" src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" ar
-        shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer> -->
 </body>
 </html>
